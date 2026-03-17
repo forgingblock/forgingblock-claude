@@ -27,6 +27,8 @@ ForgingBlock (MCP)
 - verify_payment — Verify invoice payment status
 ```
 
+![Tools](img/tools.png)
+
 ***
 
 ### Get API Token
@@ -78,8 +80,7 @@ Example response:
   - Checkout URL: https://api.forgingblock.io/api/v1/checkout?id=c25385f5-6681-41a8-a420-1c14d7d47cb0
   - Expires: 2026-03-17 04:46 UTC
 ```
-
-***
+![Create Order](img/create_order.png)
 
 ### 2. Resolve Payment Checkout
 
@@ -120,7 +121,7 @@ Verify after payment:
 https://api.forgingblock.io/api/v1/pay/verify/a4a8651a-9fe7-449a-8ab4-18f5159c08d3
 ```
 
-***
+![Create Payment](img/create_payment.png)
 
 ### 3. Verify Payment
 
@@ -145,6 +146,7 @@ Response:
   - Overpaid: 0.00
   - Underpaid: 0.00
 ```
+![Verify Payment](img/verify_payment.png)
 
 ## Summary
 
