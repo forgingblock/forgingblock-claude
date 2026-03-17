@@ -88,7 +88,7 @@ Example response:
 pay checkout https://api.forgingblock.io/api/v1/checkout?id=2f1851eb-19f4-469a-9bd8-60cb31b66f1d
 ```
 
-Claude constructs correct query automatically:
+Claude constructs and retry correct query automatically:
 
 ```
 Error: Either id or url must be provided
