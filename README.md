@@ -151,6 +151,6 @@ Response:
 ## Summary
 
 * No API token → `create_payment` and `verify_payment` only
-* API token → full payment flow with manual payment
+* API token → full payment flow, manual payment
 * Need wallet fully integrated with auto transaction execution check: [forgingblock-agentkit](https://github.com/forgingblock/forgingblock-agentkit)
 * Works with any MCP-compatible client (Claude, LobeHub, custom agents)
